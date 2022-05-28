@@ -1,0 +1,29 @@
+.left{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100px; */
+    flex: 1;
+   
+}
+.center{
+    display: flex;
+    flex: 2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header i{
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    flex: 1;
+}
+.left .logo{
+    color: red;
+}
+.center .submit{
+    height: 23px;
+    
+}
